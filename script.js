@@ -94,14 +94,7 @@ form.addEventListener('submit', (event) => {
 
 
 
-window.addEventListener("scroll",()=>{
-  const toparrow=document.querySelector(".btm-top");
-    if(window.pageYOffset > 100){
-       toparrow.style.display="block"
-    }else{
-      toparrow.style.display="none"
-    }
-})
+
 
 
   
