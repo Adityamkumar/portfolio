@@ -67,7 +67,7 @@ let typed = new Typed("#anim-text", {
   })
   closeMenu.addEventListener("click",()=>{
            sidebar.style.width="0%"
-           sidebar.style.display="block"
+           sidebar.style.display="none"
            closeMenu.style.display="none"
            sidebar.style.transition='all ease-in-out 0.8s'
   })
