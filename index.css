@@ -893,11 +893,11 @@ footer {
     width: 100px;
     object-fit: contain;
   }
-  .image1 img{
+  /* .image1 img{
     height: 100px;
     width: 100px;
     object-fit: contain;
-  }
+  } */
   
   .text h3 {
     font-size: 25px;
