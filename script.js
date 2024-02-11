@@ -91,6 +91,113 @@ form.addEventListener('submit', (event) => {
      messageInput.value=""
 });
 
+const tl=gsap.timeline();
+
+tl.from(".logo",{
+  y:-150,
+  opacity:0,
+  stagger:0.3,
+  duration:1,
+})
+tl.from(".nav-list ul li",{
+  y:150,
+  opacity:0,
+  stagger:0.3,
+  duration:1,
+})
+// tl.from(".sidebar ul li",{
+//   y:150,
+//   opacity:0,
+//   stagger:0.3,
+//   duration:1,
+// })
+// tl.from(".menu",{
+//   y:100,
+//   duration:1,
+//   stagger:0.3,
+//   opacity:0,
+// })
+tl.from(".text h3",{
+   x:-100,
+   opacity:0,
+   stagger:0.3,
+   duration:1
+})
+tl.from(" .text .social-media .icon",{
+   y:-100,
+   stagger:0.3,
+   duration:1,
+   opacity:0,
+})
+
+tl.from(".image img",{
+  y:-180,
+  duration:1,
+  opacity:0,
+  stagger:0.4,
+  scale:0
+})
+
+// tl.from(".text button",{
+//   y:-100,
+//   stagger:0.3,
+//   duration:1.5,
+//   opacity:0,
+// })
+
+gsap.from(".about-flex .para p,.image1 img",{
+  opacity:0,
+  delay:0.5,
+  duration:1,
+  y:150,
+  stagger:0.3,
+  scrollTrigger:{
+    scroller:".main",
+    trigger:"#about-me",
+    start:"top 50%",
+  }
+})
+
+gsap.from(".lang-img .program",{
+  x:-200,
+  opacity:0,
+  delay:0.4,
+  duration:1,
+  stagger:0.3,
+  scrollTrigger:{
+    scroller:".main",
+    trigger:"#skill",
+    start:"top 50%",
+    scrub:0.3
+  }
+})
+gsap.from(".proj-box .outetr-box",{
+  y:200,
+  opacity:0,
+  delay:0.4,
+  duration:1,
+  stagger:0.3,
+  scrollTrigger:{
+    scroller:".main",
+    trigger:"#project",
+    start:"top 50%",
+    scrub:0.3
+  }
+})
+
+gsap.from(".container ,.location iframe",{
+  y:200,
+  opacity:0,
+  delay:0.4,
+  duration:1,
+  stagger:0.3,
+  scrollTrigger:{
+    scroller:".main",
+    trigger:"#contact",
+    start:"top 50%",
+  }
+})
+
 
 
 
