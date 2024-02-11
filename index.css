@@ -487,6 +487,10 @@ footer {
     width: 250px;
     height: 200px;
   }
+  .image1 {
+    width: 250px;
+    height: 200px;
+  }
   
   .text h3 {
     font-size: 25px;
@@ -605,6 +609,10 @@ footer {
     align-items: center;
   }
   .image {
+    width: 250px;
+    height: 200px;
+  }
+  .image1 {
     width: 250px;
     height: 200px;
   }
@@ -736,6 +744,10 @@ footer {
     width: 250px;
     height: 200px;
   }
+  .image1 {
+    width: 250px;
+    height: 200px;
+  }
   .page-content .image img{
     height: 230px;
     width: 230px;
@@ -787,7 +799,7 @@ footer {
     padding: 0px 18px;
     gap: 60px;
   }
-  #about-me .image img{
+  #about-me .image1 img{
     margin-bottom: 65px;
     height: 220px;
     width:220px;
@@ -875,7 +887,16 @@ footer {
     width: 100px;
     height: 100px;
   }
+  .image1 {
+    width: 100px;
+    height: 100px;
+  }
   .image img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+  }
+  .image1 img{
     height: 100px;
     width: 100px;
     object-fit: contain;
@@ -925,7 +946,7 @@ footer {
     padding: 0px 18px;
     gap: 40px;
   }
-  #about-me .image img{
+  #about-me .image1 img{
     margin-top: 100px;
   }
   .about-flex .para {
@@ -1007,6 +1028,11 @@ footer {
     justify-content: center;
   }
   .image {
+    width: 250px;
+    height: 200px;
+    display: none;
+  }
+  .image1 {
     width: 250px;
     height: 200px;
     display: none;
