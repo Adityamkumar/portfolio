@@ -600,8 +600,8 @@ footer {
     top: 30%;
   }
   .centerlogo svg{
-    height: 200px;
-    width: 200px;
+    height: 270px;
+    width: 270px;
   }
   .page-content{
     flex-direction:column;
@@ -1025,7 +1025,6 @@ footer {
   .image {
     width: 230px;
     height: 180px;
-    /* display: none; */
   }
   .image1 {
     width: 180px;
