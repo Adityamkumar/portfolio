@@ -105,18 +105,7 @@ tl.from(".nav-list ul li",{
   stagger:0.3,
   duration:1,
 })
-// tl.from(".sidebar ul li",{
-//   y:150,
-//   opacity:0,
-//   stagger:0.3,
-//   duration:1,
-// })
-// tl.from(".menu",{
-//   y:100,
-//   duration:1,
-//   stagger:0.3,
-//   opacity:0,
-// })
+
 tl.from(".text h3",{
    x:-100,
    opacity:0,
@@ -138,12 +127,7 @@ tl.from(".image img",{
   scale:0
 })
 
-// tl.from(".text button",{
-//   y:-100,
-//   stagger:0.3,
-//   duration:1.5,
-//   opacity:0,
-// })
+
 
 gsap.from(".about-flex .para p,.image1 img",{
   opacity:0,
