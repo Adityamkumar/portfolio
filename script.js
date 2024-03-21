@@ -153,7 +153,7 @@ gsap.from(".lang-img .program",{
   }
 })
 gsap.from(".proj-box .outetr-box",{
-  y:-300,
+  y:300,
   opacity:0,
   delay:0.4,
   duration:1,
@@ -162,6 +162,7 @@ gsap.from(".proj-box .outetr-box",{
     scroller:".main",
     trigger:"#project",
     start:"top 50%",
+    scrub:0.5
   }
 })
 

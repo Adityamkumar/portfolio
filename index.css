@@ -174,7 +174,6 @@ button a {
 #about-me {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(#617EE5,#E7B4C1);
 }
 #about-me h3 {
   text-align: center;
@@ -216,7 +215,6 @@ button a {
 #skill {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(#617EE5,#E7B4C1);
 }
 #skill h3 {
   text-align: center;
@@ -259,7 +257,6 @@ button a {
 #project {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#617EE5,#E7B4C1);
 }
 #project h3 {
   text-align: center;
@@ -342,7 +339,6 @@ button a {
 #contact {
   width: 100%;
   height: 118vh;
-  background: linear-gradient(#617EE5,#E7B4C1);
   display: flex;
   align-items: center;
   justify-content: space-around;
