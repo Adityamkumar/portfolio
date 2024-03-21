@@ -63,13 +63,11 @@ let typed = new Typed("#anim-text", {
            sidebar.style.width="100%"
            sidebar.style.display="block"
            closeMenu.style.display="block"
-           sidebar.style.transition='all ease-in-out 0.8s'
   })
   closeMenu.addEventListener("click",()=>{
            sidebar.style.width="0%"
            sidebar.style.display="none"
            closeMenu.style.display="none"
-           sidebar.style.transition='all ease-in-out 0.8s'
   })
 
 
@@ -152,11 +150,10 @@ gsap.from(".lang-img .program",{
     scroller:".main",
     trigger:"#skill",
     start:"top 50%",
-    scrub:0.3
   }
 })
 gsap.from(".proj-box .outetr-box",{
-  y:200,
+  y:-300,
   opacity:0,
   delay:0.4,
   duration:1,
@@ -165,7 +162,6 @@ gsap.from(".proj-box .outetr-box",{
     scroller:".main",
     trigger:"#project",
     start:"top 50%",
-    scrub:0.3
   }
 })
 
