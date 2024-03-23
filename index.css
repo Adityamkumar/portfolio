@@ -10,8 +10,7 @@ body {
   width: 100%;
   height: 100%;
   scroll-behavior: smooth;
-  background: linear-gradient(#617EE5,#E7B4C1);
-
+  background-color: rgb(193, 180, 250);
 }
 .main {
   width: 100%;
@@ -174,7 +173,7 @@ button a {
 #about-me {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(#617EE5,#E7B4C1);
+  /* background: linear-gradient(#617EE5,#E7B4C1); */
 }
 #about-me h3 {
   text-align: center;
@@ -216,7 +215,7 @@ button a {
 #skill {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(#617EE5,#E7B4C1);
+  /* background: linear-gradient(#617EE5,#E7B4C1); */
 }
 #skill h3 {
   text-align: center;
@@ -259,7 +258,7 @@ button a {
 #project {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#617EE5,#E7B4C1);
+  /* background: linear-gradient(#617EE5,#E7B4C1); */
 }
 #project h3 {
   text-align: center;
@@ -344,7 +343,7 @@ button a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(#617EE5,#E7B4C1);
+  /* background: linear-gradient(#617EE5,#E7B4C1); */
 }
 .container {
   max-width: 673px;
@@ -411,7 +410,7 @@ button {
 footer {
   min-height: 205px;
   width: 100%;
-  background-color:rgba(0, 0, 0, 0.763);
+  background-color:rgba(0, 0, 0, 0.333);
   display: flex;
   justify-content: space-around;
   align-items: center;
