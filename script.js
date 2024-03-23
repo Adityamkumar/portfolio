@@ -162,7 +162,7 @@ gsap.from(".proj-box .outetr-box",{
     scroller:".main",
     trigger:"#project",
     start:"top 50%",
-    scrub:0.5
+   
   }
 })
 
