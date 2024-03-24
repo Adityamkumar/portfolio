@@ -78,17 +78,6 @@ const addressInput = document.getElementById('address');
 const messageInput = document.getElementById('message');
 const formErrors = document.getElementById('form-errors');
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
-
-     alert('Form Submitted Successfully');
-
-     nameInput.value=""    
-     emailInput.value=""
-     addressInput.value=""
-     messageInput.value=""
-});
-
 const tl=gsap.timeline();
 
 tl.from(".logo",{
